@@ -1,0 +1,25 @@
+.card-img-overlay{
+      position: absolute; /* Position the text on top of the image */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Fine-tune centering */
+  color: white; /* Example text color */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 10px;
+}
+.hero-section h1,
+.hero-section p {
+    position: relative;
+    z-index: 2;
+}
+
+.circle-badge {
+    background-color: #3bc26d;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+}
