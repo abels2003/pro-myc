@@ -90,6 +90,8 @@ body{
 .subscribe-btn {
     border-radius: 20px;
     margin-left: 0px;
+    padding: 10px;
+    align-self: baseline;
 }
 /* .subscribe-btn:hover {
     background-color: #545454;
@@ -111,3 +113,24 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   background: #1f93ff;
 }
+.inpu{
+    padding: 10px;
+    border-color: #fff ;
+    background-color: #000;
+    border-radius: 10px;
+}
+.imglogo{
+    width: inherit;
+}
+.carousel-caption h5 {
+  font-size: 6vw;
+}
+
+@media (min-width: 768px) {
+  .carousel-caption h5 {
+    font-size: 2.5rem;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
