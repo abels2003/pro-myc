@@ -148,6 +148,15 @@ body {
     padding: 0px;
     margin: 0px;
   }
+::-moz-selection { /* Code for Firefox */
+  color: rgb(255, 255, 255);
+  background: rgb(129, 129, 129);
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background: rgb(141, 141, 141);
+}
 
 }
 
